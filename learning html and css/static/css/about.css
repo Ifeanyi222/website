@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:rgba(0, 0, 0, 0.79);
+    
+}
+header{
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+    margin-left: 80px;
+   
+}
+.logo{
+    margin-top: 30px;
+}
+nav{
+    margin: 40px;
+}
+
+nav ul{
+    display: flex;
+    gap: 1rem;
+
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.contct-info{
+    height: 25px;
+    margin-top: 40px;
+    width: 100px;
+    background-color: aqua;
+    text-decoration: none;
+    margin-left: 130px;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+    font-weight: 100px;
+   
+}
+.about{
+    margin-top: 80px;
+    display: flex;
+    gap: 13rem;
+  
+    margin-left: 200px;
+}
+
+.about-info-right-flex{
+    width: 400px;
+}
+span{
+    color:aquamarine;
+}
+p{
+    color: white;
+}
+h3{
+    color: white;
+}
+h1{
+    color: white;
+}

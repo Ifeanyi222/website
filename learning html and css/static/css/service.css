@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{
+    margin-top: 30px;
+}
+
+header{
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+    margin-left: 80px;
+   
+}
+nav{
+    margin: 40px;
+}
+
+nav ul{
+    display: flex;
+    gap: 1rem;
+
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+.contct-info{
+    height: 25px;
+    margin-top: 40px;
+    width: 100px;
+    background-color: aqua;
+    text-decoration: none;
+    margin-left: 130px;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+    font-weight: 100px;
+   
+}
